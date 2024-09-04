@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    @apply min-h-screen from-slate-950 to-sky-950 bg-gradient-to-tr text-white;
+    @apply min-h-screen from-black to-rose-950 bg-gradient-to-tr text-white;
 }

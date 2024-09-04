@@ -6,18 +6,19 @@ import { motion } from "framer-motion";
 export default function ProjectsDisplay() {
     return (
         <motion.div
-            className="flex flex-col gap-4 px-4 max-w-screen-xl mx-auto w-full"
+            className="flex flex-col gap-8 px-4 max-w-screen-xl mx-auto w-full"
             initial={{ y: 50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, delay: 1 }}
         >
-            <h2 className="text-xl lg:text-3xl opacity-80 font-bold">
-                Some of my work
-            </h2>
-            <span className="font-bold text-xs opacity-50 mt-[-16px]">
-                Click on project image to view live site
-            </span>
+            <div className="flex flex-col gap-6">
+                <h2 className="text-4xl font-bold">Some of my work</h2>
+                <span className="font-bold text-xs opacity-50 mt-[-16px]">
+                    Click on project image to view live site
+                </span>
+            </div>
+
             <div className="grid grid-flow-row grid-rows-3 sm:grid-flow-col sm:grid-cols-3 sm:grid-rows-1 gap-4">
                 <a href="https://www.maksimalcoaching.no/" target="_blank">
                     <motion.div
@@ -148,7 +149,7 @@ export default function ProjectsDisplay() {
                                 Catch The Fox
                             </h3>
                             <span className="font-bold text-xs opacity-50 mt-[-8px]">
-                                Fett Rockeband
+                                ff Norwegian rock band
                             </span>
                         </motion.div>
                     </motion.div>
