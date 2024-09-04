@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background: #000;
-}
 body {
-    @apply min-h-screen from-black to-rose-950 bg-gradient-to-tr text-white;
+    background-color: #4c0519;
+    @apply min-h-screen from-black to-rose-950
+        bg-gradient-to-tr text-white;
 }
