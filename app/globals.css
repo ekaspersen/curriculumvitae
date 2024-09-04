@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    @apply from-black to-rose-950 bg-gradient-to-tr;
+    background: #000;
 }
 body {
     @apply min-h-screen from-black to-rose-950 bg-gradient-to-tr text-white;
