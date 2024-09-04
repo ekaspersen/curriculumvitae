@@ -3,9 +3,9 @@ export default function Contact() {
         <div className="px-4 py-16 max-w-screen-xl mx-auto">
             <h1 className="text-4xl font-bold mb-4">Contact Me</h1>
             <p className="text-lg opacity-80 max-w-xl lg:max-w-2xl leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or
-                opportunities to be part of your visions. Feel free to reach out
-                to me through any of the following platforms.
+                I&apos;m always open to discussing new projects, creative ideas,
+                or opportunities to be part of your visions. Feel free to reach
+                out to me through any of the following platforms.
             </p>
             <ul className="mt-4 space-y-4 text-lg opacity-80">
                 <span className="max-w-xl lg:max-w-2xl">
